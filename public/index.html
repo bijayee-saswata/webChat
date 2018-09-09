@@ -4,10 +4,18 @@
     <meta charset="utf-8">
     <title>Live Chat</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.dev.js"></script>
-    <link rel="stylesheet" href="public/style.css">
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-    helooo
+    <div id="mario-chat">
+      <div id="chat-window">
+        <div id="output"></div>
+      </div>
+      <input type="text" id="handle" placeholder="Handle">
+      <input type="text" id="message" placeholder="message">
+      <button id="send">Send</button>
+    </div>
+
     <script type="text/javascript" src="/chat.js"></script>
   </body>
 </html>
