@@ -18,4 +18,8 @@ io.on('connection', function(socket){
     io.sockets.emit('chat', data); //emit data to all connected clients
   });
 
+  socket.on('typing', function(handleData){
+    socket.broadcast.emit('typing',handleData);
+  });
+
 });
