@@ -9,13 +9,14 @@
   },
   "devDependencies": {},
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bijayee-saswata/webChat.git"
   },
-  "author": "me",
+  "author": "Bijayee Saswata",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/bijayee-saswata/webChat/issues"
